@@ -14,17 +14,11 @@ hide_menu_style = """
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
+    .st-emotion-cache-16txtl3 {display: none !important;}
     </style>
 """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
-hide_footer = """
-    <style>
-    .stDeployButton {visibility: hidden;}
-    .st-emotion-cache-1u9z8cn {display: none !important;}
-    </style>
-"""
-st.markdown(hide_footer, unsafe_allow_html=True)
 
 st.title("🌱 Plant Disease Detection")
 
