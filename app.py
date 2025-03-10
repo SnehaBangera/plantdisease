@@ -8,6 +8,8 @@ from src.disease_info import disease_info
 from lime import lime_image
 from dotenv import load_dotenv
 
+st.set_page_config(initial_sidebar_state="collapsed")
+
 st.title("🌱 Plant Disease Detection")
 
 load_dotenv()
