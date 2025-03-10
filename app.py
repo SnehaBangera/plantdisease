@@ -19,15 +19,6 @@ hide_menu_style = """
 """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
-st.set_page_config(layout="wide")
-
-st.markdown(
-    """ <style>
-    footer {visibility: hidden;}
-    </style> """,
-    unsafe_allow_html=True
-)
-
 
 st.title("🌱 Plant Disease Detection")
 
